@@ -35,23 +35,29 @@ This include the queries used for analysis.
     SELECT * FROM KMS
 
 2  ----HIGHEST SALES BY PRODECT CATEGORY----
-```
+``` sql
  SELECT SALES, Product_Category FROM KMS
 ORDER BY SALES DESC
 
   ```
 
 3 ---TOP 3 REGIONS BY SALES---
- ```
+ ``` sql
 SELECT TOP 3 * FROM
 (SELECT REGION, SALES FROM KMS) AS KMS
 ORDER BY SALES DESC
+
  ```
 4 -----BOTTOM 3 REGIONS BY SALES----
-```
+``` sql
 SELECT TOP 3 * FROM
 (SELECT REGION, SALES FROM KMS) AS KMS
 ORDER BY SALES ASC
 ```
+5 -----total sales of appliances in Ontario----
 
+``` sql
+SELECT SUM(SALES) AS TOTAL_SALES FROM KMS
+WHERE REGION ='ONTARIO' AND PRODUCT_SUB_CATEGORY='APPLIANCES'
+```
 
