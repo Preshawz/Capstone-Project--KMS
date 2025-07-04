@@ -21,5 +21,24 @@ This stage inlvolved;
 3. Selecting 'Allow Nulls' column
 4. Loading of Data
 
+### Exploratory Data Analysis
+EDA involved exploring data to answer questions like;
+1. Which product category had the highest sales? 
+2. What are the Top 3 and Bottom 3 regions in terms of sales? 
+3. What were the total sales of appliances in Ontario? etc.
+
+### Data Analysis
+This include the queries used for analysis.
+1. Table was visulaized
+ '''  SELECT * FROM KMS ''''
+
+3. HIGHEST SALES BY PRODECT CATEGORY
+
+'''
+ SELECT SALES, Product_Category FROM KMS
+ORDER BY SALES DESC
+
+''''
+
 
 
