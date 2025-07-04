@@ -30,7 +30,7 @@ EDA involved exploring data to answer questions like;
 ### Data Analysis
 This include the queries used for analysis.
 1. Table was visulaized
-    SELECT * FROM KMS
+  
    ```  sql
     SELECT * FROM KMS
 
@@ -39,9 +39,19 @@ This include the queries used for analysis.
  SELECT SALES, Product_Category FROM KMS
 ORDER BY SALES DESC
 
----TOP 3 REGIONS BY SALES---
+  ```
+
+3 ---TOP 3 REGIONS BY SALES---
+ ```
 SELECT TOP 3 * FROM
 (SELECT REGION, SALES FROM KMS) AS KMS
 ORDER BY SALES DESC
+ ```
+4 -----BOTTOM 3 REGIONS BY SALES----
+```
+SELECT TOP 3 * FROM
+(SELECT REGION, SALES FROM KMS) AS KMS
+ORDER BY SALES ASC
+```
 
 
