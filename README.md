@@ -31,18 +31,17 @@ EDA involved exploring data to answer questions like;
 This include the queries used for analysis.
 1. Table was visulaized
     SELECT * FROM KMS
-   ---  sql
+   ```  sql
     SELECT * FROM KMS
 
-   ----
-
-3. HIGHEST SALES BY PRODECT CATEGORY
-
-'''
+2  ----HIGHEST SALES BY PRODECT CATEGORY----
+```
  SELECT SALES, Product_Category FROM KMS
 ORDER BY SALES DESC
 
-''''
-
+---TOP 3 REGIONS BY SALES---
+SELECT TOP 3 * FROM
+(SELECT REGION, SALES FROM KMS) AS KMS
+ORDER BY SALES DESC
 
 
