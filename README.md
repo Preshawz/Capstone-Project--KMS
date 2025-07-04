@@ -30,7 +30,11 @@ EDA involved exploring data to answer questions like;
 ### Data Analysis
 This include the queries used for analysis.
 1. Table was visulaized
- '''  SELECT * FROM KMS ''''
+    SELECT * FROM KMS
+   ---  sql
+    SELECT * FROM KMS
+
+   ----
 
 3. HIGHEST SALES BY PRODECT CATEGORY
 
