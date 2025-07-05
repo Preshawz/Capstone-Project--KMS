@@ -72,7 +72,7 @@ WHERE REGION ='ONTARIO' AND PRODUCT_SUB_CATEGORY='APPLIANCES'
  ORDER BY SALES DESC
 ```
  - ADVICE, THE REVENUE OF THE BOTTOM 10 CUSTOMERS CAN BE INCREASED IF PRODUCT CATEGORY CAN
- BE FOCUSED ON TECHNOLOGY AND FURNITURE DESPITE THIER REGION AND SEGMENT
+ BE FOCUSED ON TECHNOLOGY AND FURNITURE IRRESPECTIVE OF THE REGION AND SEGMENT
 
 7 ------TOP SHIPPING COST WITH WHAT SHIPPING MODE-----
  ``` sql
@@ -121,4 +121,19 @@ FROM KMS
 GROUP BY ORDER_PRIORITY,SHIP_MODE
 ORDER BY [ESTIMATED SHIPPING COST] DESC
 ```
+### Insights
+1. Technology drives revenue: Technology products have the highest revenue turnover, while office supplies have significantly lower turnovers.
+   - Focus on technology products to maximize sales.
+   - Investigate reasons for office supplies underperformance  (e.g., low demand, competition).
+
+2. High-value customers prioritize tech: The most valuable customers are purchasing more technology products, indicating a strong demand in this category.
+   - Tailor marketing to high-value customers.
+   - The revene of the bottom 10 customers can be increase if product category can be focused on techonology and furniture irrespestive of there reigon or customer 
+
+3. Shipping strategy review needed: Despite Express Air being the fastest and most expensive shipping option, its cost doesn't align with the order priority, suggesting a need to reassess the shipping strategy.
+   - Reevaluate shipping strategies to balance cost and priority.
+
+
+
+
 
