@@ -128,7 +128,7 @@ ORDER BY [ESTIMATED SHIPPING COST] DESC
 
 2. High-value customers prioritize tech: The most valuable customers are purchasing more technology products, indicating a strong demand in this category.
    - Tailor marketing to high-value customers.
-   - The revene of the bottom 10 customers can be increase if product category can be focused on techonology and furniture irrespestive of there reigon or customer 
+   - The revenue of the bottom 10 customers can be increased if office supplies can be focused on tech-inclined varieties. 
 
 3. Shipping strategy review needed: Despite Express Air being the fastest and most expensive shipping option, its cost doesn't align with the order priority, suggesting a need to reassess the shipping strategy.
    - Reevaluate shipping strategies to balance cost and priority.
